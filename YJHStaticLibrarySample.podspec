@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YJHStaticLibrarySample"
-  s.version      = '0.2.1'
+  s.version      = "0.2.1"
   s.summary      = "A short description of YJHStaticLibrarySample."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yjh1313/YJHStaticLibrarySample.git", :tag => '0.2.1' }
+  s.source       = { :git => "https://github.com/yjh1313/YJHStaticLibrarySample.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
