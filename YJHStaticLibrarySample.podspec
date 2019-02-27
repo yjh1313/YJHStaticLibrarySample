@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/yjh1313/YJHStaticLibrarySample.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yjh1313/YJHStaticLibrarySample.git", :tag => "0.2.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
