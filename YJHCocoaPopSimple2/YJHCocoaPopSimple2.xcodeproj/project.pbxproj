@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A67ECB1223BDBCD003AEE0D /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A67ECB0223BDBCC003AEE0D /* Tests.m */; };
+		1A67ECB3223BDBCD003AEE0D /* libYJHCocoaPopSimple2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8AA4652226E45000C1ACDF /* libYJHCocoaPopSimple2.a */; };
 		1A8AA46A2226E45000C1ACDF /* YJHCocoaPopSimple2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AA4692226E45000C1ACDF /* YJHCocoaPopSimple2.m */; };
 		1A8AA46B2226E45000C1ACDF /* YJHCocoaPopSimple2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A8AA4682226E45000C1ACDF /* YJHCocoaPopSimple2.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A67ECB4223BDBCD003AEE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A8AA45D2226E45000C1ACDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A8AA4642226E45000C1ACDF;
+			remoteInfo = YJHCocoaPopSimple2;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1A8AA4632226E45000C1ACDF /* CopyFiles */ = {
@@ -25,12 +37,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A67ECAE223BDBCC003AEE0D /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A67ECB0223BDBCC003AEE0D /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		1A67ECB2223BDBCD003AEE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A8AA4652226E45000C1ACDF /* libYJHCocoaPopSimple2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYJHCocoaPopSimple2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8AA4682226E45000C1ACDF /* YJHCocoaPopSimple2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHCocoaPopSimple2.h; sourceTree = "<group>"; };
 		1A8AA4692226E45000C1ACDF /* YJHCocoaPopSimple2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHCocoaPopSimple2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A67ECAB223BDBCC003AEE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A67ECB3223BDBCD003AEE0D /* libYJHCocoaPopSimple2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A8AA4622226E45000C1ACDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A67ECAF223BDBCC003AEE0D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A67ECB0223BDBCC003AEE0D /* Tests.m */,
+				1A67ECB2223BDBCD003AEE0D /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		1A8AA45C2226E45000C1ACDF = {
 			isa = PBXGroup;
 			children = (
 				1A8AA4672226E45000C1ACDF /* YJHCocoaPopSimple2 */,
+				1A67ECAF223BDBCC003AEE0D /* Tests */,
 				1A8AA4662226E45000C1ACDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				1A8AA4652226E45000C1ACDF /* libYJHCocoaPopSimple2.a */,
+				1A67ECAE223BDBCC003AEE0D /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +103,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1A67ECAD223BDBCC003AEE0D /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A67ECB8223BDBCD003AEE0D /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				1A67ECAA223BDBCC003AEE0D /* Sources */,
+				1A67ECAB223BDBCC003AEE0D /* Frameworks */,
+				1A67ECAC223BDBCC003AEE0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A67ECB5223BDBCD003AEE0D /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 1A67ECAE223BDBCC003AEE0D /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1A8AA4642226E45000C1ACDF /* YJHCocoaPopSimple2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A8AA46E2226E45000C1ACDF /* Build configuration list for PBXNativeTarget "YJHCocoaPopSimple2" */;
@@ -95,6 +147,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "余景洪";
 				TargetAttributes = {
+					1A67ECAD223BDBCC003AEE0D = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					1A8AA4642226E45000C1ACDF = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -113,11 +168,30 @@
 			projectRoot = "";
 			targets = (
 				1A8AA4642226E45000C1ACDF /* YJHCocoaPopSimple2 */,
+				1A67ECAD223BDBCC003AEE0D /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1A67ECAC223BDBCC003AEE0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		1A67ECAA223BDBCC003AEE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A67ECB1223BDBCD003AEE0D /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A8AA4612226E45000C1ACDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,7 +202,47 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1A67ECB5223BDBCD003AEE0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A8AA4642226E45000C1ACDF /* YJHCocoaPopSimple2 */;
+			targetProxy = 1A67ECB4223BDBCD003AEE0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1A67ECB6223BDBCD003AEE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bytedance.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A67ECB7223BDBCD003AEE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bytedance.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1A8AA46C2226E45000C1ACDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -266,6 +380,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A67ECB8223BDBCD003AEE0D /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A67ECB6223BDBCD003AEE0D /* Debug */,
+				1A67ECB7223BDBCD003AEE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1A8AA4602226E45000C1ACDF /* Build configuration list for PBXProject "YJHCocoaPopSimple2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
